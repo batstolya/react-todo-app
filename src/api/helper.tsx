@@ -1,0 +1,20 @@
+import { FilterType } from '../types/FilterType';
+import { Todo } from '../types/Todo';
+
+export const getFilterTodos = (
+  todos: Todo[],
+  filterStatus: string,
+) => {
+  return filterStatus === FilterType.ALL
+    ? todos
+    : todos.filter((todo) => {
+      switch (filterStatus) {
+        case FilterType.ACTIVE:
+          return !todo.completed;
+        case FilterType.COMPLETED:
+          return todo.completed;
+        default:
+          return true;
+      }
+    });
+};
