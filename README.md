@@ -16,15 +16,14 @@ Project was created with:
 1. Use Node.js version 14:
 ```bash
 $ nvm use 14
-```bash
 2. Clone the repository to your local machine, open terminal (GitBash for Windows users) and clone repo with command bellow:
 $ git clone https://batstolya/todo-app.git
 3. Open project in terminal (or GitBash for Windows users):
-```bash
+
 $ code todo-app
 4. Set up project and install necessary packages in the code-editor you use:
-```bash
+
 $ npm install
 5. Open the project in browser:
-```bash
+
 $ npm start
