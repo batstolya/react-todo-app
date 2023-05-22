@@ -14,7 +14,7 @@ Project was created with:
 
 # Setup
 1. Use Node.js version 14:
-```bash
+
 $ nvm use 14
 
 2. Clone the repository to your local machine, open terminal (GitBash for Windows users) and clone repo with command bellow:
