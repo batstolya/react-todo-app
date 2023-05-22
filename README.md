@@ -13,6 +13,18 @@ Project was created with:
 - CSS, SCSS
 
 # Setup
-Use Node.js version 14:
+1. Use Node.js version 14:
 ```bash
 $ nvm use 14
+2. Clone the repository to your local machine, open terminal (GitBash for Windows users) and clone repo with command bellow:
+```bash
+$ git clone https://batstolya/todo-app.git
+3. Open project in terminal (or GitBash for Windows users):
+```bash
+$ code todo-app
+4. Set up project and install necessary packages in the code-editor you use:
+```bash
+$ npm install
+5. Open the project in browser:
+```bash
+$ npm start
