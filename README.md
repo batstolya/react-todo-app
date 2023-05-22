@@ -13,5 +13,6 @@ Project was created with:
 - CSS, SCSS
 
 # Setup
------
 Use Node.js version 14:
+```bash
+$ nvm use 14
